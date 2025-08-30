@@ -69,7 +69,7 @@ SmartCollab은 다음과 같은 핵심 기능들을 제공합니다.
 ### Frontend
 * Library: React 18 (UMD), Babel Standalone
 * Styling: Tailwind CSS 
-* Real-time: SockJS, Stomp.js [cite: 17, 18]
+* Real-time: SockJS, Stomp.js 
 * Icons: Lucide Icons
 
 ### Infrastructure
