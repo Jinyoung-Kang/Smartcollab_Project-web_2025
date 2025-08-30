@@ -17,6 +17,20 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+# Env / Secrets
+.env
+.env.*
+*.secret
+*.key
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+*.jar
+*.war
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
