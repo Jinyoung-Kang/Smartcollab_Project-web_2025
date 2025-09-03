@@ -621,7 +621,7 @@ const API = {
         return await res.text(); // SAS 풀 URL 문자열
     },
 
-// !!
+// !! 삭제 예정
     getWritableFolderTree: async (teamId = null) => {
         const url = teamId
             ? `/api/folders/tree/writable/${teamId}`

@@ -41,7 +41,7 @@ const AuthForm = ({ onLogin }) => {
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
-                    placeholder="아이디 (Username)"
+                    placeholder="아이디"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     className="w-full p-2 border rounded mb-4"
@@ -51,7 +51,7 @@ const AuthForm = ({ onLogin }) => {
                     <>
                         <input
                             type="text"
-                            placeholder="이름 (Name)"
+                            placeholder="이름"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             className="w-full p-2 border rounded mb-4"
@@ -59,7 +59,7 @@ const AuthForm = ({ onLogin }) => {
                         />
                         <input
                             type="email"
-                            placeholder="이메일 (Email)"
+                            placeholder="이메일"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             className="w-full p-2 border rounded mb-4"
